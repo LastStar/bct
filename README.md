@@ -46,5 +46,6 @@ You can run:
     > bundle exec spork
 
 to speedup your specs. Run them with:
+
     > bundle rspec spec
 
