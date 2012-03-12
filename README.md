@@ -45,20 +45,6 @@ You can run:
 
     > bundle exec spork
 
-to speedup your specs.
+to speedup your specs. Run them with:
+    > bundle rspec spec
 
-Also if your run:
-
-    > bundle exec spork Cucumber
-
-you can run:
-
-    > cucumber
-
-## Deploying
-
-Always run full test suite before deploying! Then deploy with:
-
-    > bundle exec gitploy staging
-
-You can do it only, when you have rights for it on staging server.

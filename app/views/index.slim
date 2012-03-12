@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title BriefcaseType Foundry
+    meta name="keywords" content="template language"
+    link(rel="stylesheet" href="/stylesheets/base.css" type="text/css" media="all")
+
+
+  body
+    div id='content'
+      - if flash[:message].present?
+        div(id='message')
+          = flash[:message]
+      div id='main'
+        h1 Briefcase
+        p The new, independent font distributor comming in 2012
+
+      div id='footer'
+        h1 Mailing list
+        form id='mailing-list' action='/save' method='post'
+          p If you wish to be added to mailling list, please send us your email address.
+          input type='email' name='email'
+          input type='submit' value='Join'
